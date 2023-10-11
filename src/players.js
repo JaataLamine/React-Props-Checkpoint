@@ -1,0 +1,51 @@
+// Array of json objects for players
+export const players = [
+  {
+    name: "Sadio Mane",
+    team: "Al-Nassr",
+    nationality: "Senegal",
+    jerseyNumber: 10,
+    age: 31,
+    Image: require("./images/sadio.jpg"),
+  },
+  {
+    name: "Kalidou Koulibaly",
+    team: "Al-Hilal FC",
+    nationality: "Senegal",
+    jerseyNumber: 3,
+    age: 32,
+    Image: require("./images/koulibaly.jpg"),
+  },
+  {
+    name: "Idrissa Gana Gueye",
+    team: "Everton Football Club",
+    nationality: "Senegal",
+    jerseyNumber: 27,
+    age: 34,
+    Image: require("./images/ganna.jpg"),
+  },
+  {
+    name: "Édouard Mendy",
+    team: "Al Ahli SC",
+    nationality: "Senegal",
+    jerseyNumber: 16,
+    age: 31,
+    Image: require("./images/mendy.jpg"),
+  },
+  {
+    name: "Cristiano Ronaldo",
+    team: "Al-Nassr",
+    nationality: "Portugal",
+    jerseyNumber: 7,
+    age: 38,
+    Image: require("./images/cristiano.jpg"),
+  },
+  {
+    name: "Lionel Messi",
+    team: "Inter Miami CF",
+    nationality: "Argentina",
+    jerseyNumber: 7,
+    age: 36,
+    Image: require("./images/leonel.png"),
+  },
+];
